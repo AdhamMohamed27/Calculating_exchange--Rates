@@ -1,0 +1,39 @@
+Results:
+Top 10 of The Max Exchange Rate:
+The Date: 4/22/2008, the Change: 0.413845
+The Date: 4/16/2008, the Change: 0.409045 
+The Date: 7/11/2008, the Change: 0.408045
+The Date: 7/21/2008, the Change: 0.406845
+The Date: 7/15/2008, the Change: 0.406145
+The Date: 4/21/2008, the Change: 0.405045
+The Date: 7/14/2008, the Change: 0.404845
+The Date: 4/17/2008, the Change: 0.404145
+The Date: 4/23/2008, the Change: 0.403345
+The Date: 7/2/2008, the Change: 0.402345
+
+Top 10 of The Min/Lowest Exchange Rate:
+The Date: 10/25/2000, the Change: -0.358455
+The Date: 10/26/2000, the Change: -0.356055
+The Date: 10/24/2000, the Change: -0.350055
+The Date: 10/23/2000, the Change: -0.349855
+The Date: 7/5/2001, the Change: -0.348655
+The Date: 11/24/2000, the Change: -0.347255
+The Date: 10/18/2000, the Change: -0.346655
+The Date: 10/27/2000, the Change: -0.346655
+The Date: 10/30/2000, the Change: -0.345055
+The Date: 10/20/2000, the Change: -0.344155
+
+Max Subsequence Sum Period:
+Start Date:1/4/1999 ,End Date:11/16/2023
+
+
+Analysis: 
+The Used N=10;
+Upheap = OlogN= log(10)
+DownHeap= OlogN=log(10)
+Inserting= OlogN=log(10)
+Heapify= OlogN=log(10)
+However,if the Max/Min Heaps are built using the Heapify algorthim as it was done the code, The Time complexcity is O(N) and not OlogN
+MaxHeap= O(N)=10
+MinHeap=O(N)=10
+
